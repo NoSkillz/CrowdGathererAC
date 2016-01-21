@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html>
+<html ng-app="Gatherer">
 <head>
     <meta charset="utf-8" />
 
@@ -13,13 +13,16 @@
     <!-- CrowdGathererAC references -->
     <link href="css/index.css" rel="stylesheet" />
 </head>
-<body>
+<body ng-controller="MainController as MC">
     <p>Hello, your application is ready!</p>
-
+    <p>{{MC.text}}</p>
     <!-- Cordova reference, this is added to your app when it's built. -->
     <script src="cordova.js"></script>
     <script src="scripts/platformOverrides.js"></script>
-
     <script src="scripts/index.js"></script>
+    <script src="scripts/angular/angular.min.js"></script>
+
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/MainController.js"></script>
 </body>
 </html>

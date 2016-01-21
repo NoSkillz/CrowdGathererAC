@@ -1,5 +1,6 @@
 {
     "name": "CrowdGathererAC",
-    "dependencies": {
-    }
+  "dependencies": {
+    "angular": "1.4.9"
+  }
 }
